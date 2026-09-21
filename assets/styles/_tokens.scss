@@ -1,0 +1,83 @@
+:root {
+  --color-background: #f4f2ff;
+  --color-topbar: #1c1930;
+  --color-primary: #1f1283;
+  --color-secondary: #ffb23d;
+  --color-accent: #695ccd;
+  --color-accent-light: #b2a8ff;
+  --color-text-secondary: #717171;
+  --color-placeholder: #8c8b93;
+  --color-border: #dcdcdc;
+  --color-error: #c40000;
+  --color-error-strong: #9f0000;
+  --color-white: #ffffff;
+
+  --font-family-base: 'Encode Sans Semi Expanded', sans-serif;
+  --font-family-logo: 'Encode Sans Expanded', sans-serif;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-md: 17px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 22px;
+  --font-size-3xl: 24px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.375;
+  --line-height-relaxed: 1.5;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-13: 52px;
+
+  --size-input-height: 40px;
+  --size-button-height: 52px;
+  --size-topbar-height: 80px;
+  --size-card-width: 346px;
+  --size-card-cover-height: 231px;
+  --size-touch-target: 44px;
+  --size-icon-button-sm: 32px;
+  --size-form-max-width: 702px;
+  --page-padding-inline: 24px;
+  --page-padding-block: 24px;
+
+  --border-width: 1px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --shadow-topbar: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --shadow-modal: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --shadow-dropdown: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  --breakpoint-sm: 600;
+  --breakpoint-md: 1024;
+  --breakpoint-lg: 1280;
+
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+
+  --z-dropdown: 100;
+  --z-modal: 200;
+  --z-toast: 300;
+}
+
+@media (min-width: 600px) {
+  :root {
+    --page-padding-inline: 42px;
+    --page-padding-block: 60px;
+  }
+}
